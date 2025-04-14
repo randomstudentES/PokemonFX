@@ -24,25 +24,22 @@ public class Raichu extends Pokemon {
 
     @Override
     protected void asignarAtaques() {
-        // Nivel 1: Placaje
-        Ataque impactrueno = new Ataque("impactrueno", 40, 100, Tipo.NORMAL, false, 30);
-        asignarAtaque(impactrueno.getNombre(), impactrueno);
-
-        // Nivel 10: Látigo Cepa
         Ataque ataqueRapido = new Ataque("ataque rápido", 40, 100, Tipo.NORMAL, false, 30);
         asignarAtaque(ataqueRapido.getNombre(), ataqueRapido);
 
-        // Nivel 20: Hoja Afilada
         Ataque rayo = new Ataque("rayo", 90, 100, Tipo.NORMAL, false, 15);
         asignarAtaque(rayo.getNombre(), rayo);
 
-        // Nivel 25: Doble Filo
-        Ataque agilidad = new Ataque("agilidad", 0, 100, Tipo.NORMAL, false, 30); // Supone mejora de velocidad
-        asignarAtaque(agilidad.getNombre(), agilidad);
+        Ataque punoTrueno = new Ataque("puño trueno", 75, 100, Tipo.NORMAL, false, 15);
+        asignarAtaque(punoTrueno.getNombre(), punoTrueno);
 
-        // Nivel 32: Rayo Solar
         Ataque trueno = new Ataque("trueno", 110, 70, Tipo.NORMAL, false, 10);
         asignarAtaque(trueno.getNombre(), trueno);
+
+
+        Ataque voltiocambio = new Ataque("voltiocambio", 70, 100, Tipo.NORMAL, false, 20);
+        asignarAtaque(voltiocambio.getNombre(), voltiocambio);
+
 
     }
 
