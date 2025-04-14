@@ -18,7 +18,7 @@ public class Charmander extends Pokemon implements Fuego {
 
     @Override
     public Pokemon pokemonAEvolucionar() {
-        Pokemon pokemon = new Squirtle(this.nivel);
+        Pokemon pokemon = new Charmaleon(this.nivel);
         return pokemon;
     }
 
