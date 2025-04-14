@@ -8,6 +8,7 @@ public enum Tipo {
     PLANTA(new String[]{"FUEGO"}, new String[]{"AGUA"}, new String[]{}),
     NORMAL(new String[]{"LUCHA"}, new String[]{}, new String[]{"FANTASMA"}),
     SINIESTRO(new String[]{"LUCHA"}, new String[]{"PSIQUICO"}, new String[]{}),
+    ELÉCTRICO(new String[]{"TIERRA"}, new String[]{"AGUA", "VOLADOR"}, new String[]{}),
     DRAGON(new String[]{"HIELO", "DRAGON"}, new String[]{"DRAGON"}, new String[]{});
 
     public final String[] debilidades;
