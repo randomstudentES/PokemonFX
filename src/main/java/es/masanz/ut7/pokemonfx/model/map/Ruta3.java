@@ -41,12 +41,12 @@ public class Ruta3 extends Mapa {
                 {1, 2, 2, 2 , 2, 2, 2, 3 , 2, 2, 2 , 3, 2, 2 , 2, 2, 2, 2, 1},
                 {1, 2, 2, 2 , 2, 2, 2, 3 , 2, 2, 2 , 3, 2, 2 , 2, 2, 2, 2, 1},
                 {1, 2, 2, 2 , 2, 2, 2, 3 , 2, 2, 2 , 3, 2, 2 , 2, 2, 2, 2, 1},
-                {1, 2, 2, 2 , 2, 2, 2, 3 , 2, 2, 2 , 3, 2, 2 , 2, 2, 2, 2, 1},
+                {1, 5, 2, 2 , 2, 2, 2, 3 , 2, 2, 2 , 3, 2, 2 , 2, 2, 2, 2, 1},
                 {1, 1, 1, 1 , 1, 1, 1, 1 , 1, 1, 1 , 1, 1, 1 , 1, 1, 1, 1, 1}
         };
 
         this.inicioX = 2;
-        this.inicioY = 2;
+        this.inicioY = 7;
 
         this.altura = mapaRuta.length;
         this.anchura = mapaRuta[0].length;
@@ -101,7 +101,7 @@ public class Ruta3 extends Mapa {
                     case 5:
                         mapData[y][x] = TileType.TELEPORT_RED.ordinal();
                         collisionMap[y][x] = CollisionType.SUELO.ordinal();
-                        teleportMap[y][x] = "Ruta 1";
+                        teleportMap[y][x] = "Ruta 4";
                         break;
                     case 6:
                         mapData[y][x] = TileType.MONTE_CENTRO.ordinal();
